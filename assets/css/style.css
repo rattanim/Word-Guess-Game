@@ -1,4 +1,52 @@
 body{
-    background-color: gray;
+    background-color: white;
     font-family: sans-serif; 
+}
+
+header,
+nav,
+section,
+aside,
+footer {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background: #ebebeb;
+}
+
+section {
+  display: block;
+  float: left;
+  width: 495px;
+  height: 267px;
+  overflow: hidden;
+}
+
+aside {
+  display: block;
+  float: right;
+  width: 40%;
+  height: 267px;
+  overflow: hidden;
+}
+
+article {
+  padding: 10px;
+  color: #ebebeb;
+  background: white;
+}
+
+.clear {
+  clear: both;
+}
+
+h1,
+p { 
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  text-align: left;
+  background: white;
 }
